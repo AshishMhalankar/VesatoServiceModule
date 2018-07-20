@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Vesato</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="name">नाव </string>
+    <string name="mobile_number">मोबाइल न.</string>
+    <string name="land_size">जमीन आकार</string>
+    <string name="goan">गाव</string>
+    <string name="do_you_have_car">तुमचा  कडे  गाडी  आहे का ?</string>
+    <string name="do_you_have_quip">तुमचा  कडे  उपकरणे  आहे का ?</string>
+    <string name="yes">हो</string>
+    <string name="no">नाही</string>
+    <string name="submit">सबमिट करा</string>
+    <string name="resend">पुन्हा पाठवा</string>
+    <string name="need_help">मदत पाहिजे ?</string>
+    <string name="akar">एकर</string>
+    <string name="error_mobile">कृपया वैध मोबाइल नंबर प्रविष्ट करा</string>
+    <string name="error_land_size">कृपया वैध जमीन आकार प्रविष्ट करा</string>
+    <string name="error_villagename">कृपया वैध गाव नाव द्या</string>
+    <string name="error_name">कृपया वैध नाव प्रविष्ट करा</string>
+    <string name="sign_in">साइन इन</string>
+    <string name="register">नोंदणी करा</string>
+    <string name="enter_otp">OTP प्रविष्ट करा</string>
+    <string name="error_otp">कृपया योग्य OTP प्रविष्ट कराा</string>
+    <string name="rent">आपण आपले वाहन भाड्याने इच्छिता?</string>
+    <string name="hire">तुम्हाला गाडी भाड्याने घ्यायची आहे का?</string>
+    <string name="vehicle">वाहन</string>
+    <string name="tractor">ट्रॅक्टर</string>
+    <string name="enter_vehicle_deltails">वाहनचा तपशील भरा</string>
+    <string name="vehicle_name">वाहनचे नाव</string>
+    <string name="vehicle_number">वाहन नंबर</string>
+    <string name="vehicle_capacity_in_tonnes">वाहनाची टनामध्ये क्षमता (टन मध्ये)</string>
+    <string name="licence_no">परवाना क्रमांक</string>
+    <string name="error_please_enter_icence_no">कृपया परवाना नंबर प्रविष्ट करा</string>
+    <string name="error_please_enter_this_field">कृपया हे फील्ड प्रविष्ट करा</string>
+    <string name="slect_market">बाजार निवडा</string>
+    <string name="select_Crop">पीक निवडा</string>
+    <string name="crates">कॅरेट</string>
+    <string name="sack">पोतं</string>
+    <string name="lose">सुट्टे</string>
+    <string name="no_of_crates">संख्या</string>
+    <string name="select_time_date">वेळ आणि तारीख निवडा</string>
+    <string name="time">वेळ</string>
+    <string name="date">तारीख</string>
+    <string name="error_selectmarket">कृपया बाजार निवडा</string>
+    <string name="error_selectcrop">कृपया पीक निवडा</string>
+    <string name="error_selectdate">कृपया तारीख निवडा</string>
+    <string name="error_time">कृपया वेळ निवडा</string>
+    <string name="mode_of_packing">पॅकेजिंगची मोड</string>
+    <string name="transport_booking">वाहन बुकिंग</string>
+</resources>

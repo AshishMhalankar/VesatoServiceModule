@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_vehicle_deltails"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/vehicle_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spinnar_vheclename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design_edittext"
+                android:padding="10dp"></Spinner>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/licence_no"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/ed_licenceno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".9"
+                android:background="@drawable/design_edittext"
+                android:gravity="center"
+                android:inputType="textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete"
+                android:padding="10dp"></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/vehicle_number"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/ed_vn_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".9"
+                    android:background="@drawable/design_edittext"
+                    android:gravity="center"
+                    android:hint="MH"
+
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:padding="10dp"></EditText>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/colorBlack" />
+
+                <EditText
+                    android:id="@+id/ed_vn_rtono"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".9"
+                    android:background="@drawable/design_edittext"
+                    android:gravity="center"
+                    android:hint="15"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:padding="10dp"></EditText>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/colorBlack" />
+
+                <EditText
+                    android:id="@+id/rd_vn_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:background="@drawable/design_edittext"
+                    android:gravity="center"
+                    android:hint="2844"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="10dp"></EditText>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/vehicle_capacity_in_tonnes"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/ed_v_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".9"
+                android:background="@drawable/design_edittext"
+                android:gravity="center"
+                android:padding="10dp"></EditText>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/design_button"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="8dp"
+            android:text="@string/register"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:layout_below="@+id/main"/>
+    </RelativeLayout>
+
+</RelativeLayout>
